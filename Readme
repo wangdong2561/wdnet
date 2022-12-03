@@ -1,0 +1,31 @@
+
+Compile:
+
+    1. you can use sys-build to do it.
+	sys-build config
+	sys-build
+
+    2. you can use make to do it
+	make PLATFORM=ti81xx CROSS_COMPILE=arm-none-linux-gnueabi-
+
+--------------
+
+Add a new module :
+
+	1. Distinguish the way your module dial-up is ppp or ndis,
+	   then cp a file like ndis_****.c or pppd_****.c.
+	eg:
+	   a new module producted by huawei ,named mu709s, dial with ppp
+	   so cp pppd_quectel_uc20.c to pppd_huawei_mu709s.c
+
+	2. Edit the different of code in pppd_huawei_mu709s.c
+
+	3. Add func named like ****_driver_init declaration to driver.c
+
+-------------
+
+Programming attention :
+
+	1. If you are enabled SYSLOG on board, you have to add 
+	   "local7.=debug;local7.=error /tmp/mbnet.log" to syslog script.
+	   The syslog default script is located in /etc/syslog.conf.

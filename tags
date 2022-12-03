@@ -1,0 +1,685 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+APN	src/apn.c	/^	char APN[MBNET_MAX_APN_LEN +1 ];$/;"	m	file:
+AR	Makefile	/^AR              = $(CROSS_COMPILE)ar$/;"	m
+ARFLAGS	Makefile	/^ARFLAGS         = -rcsu$/;"	m
+AS	Makefile	/^AS              = $(CROSS_COMPILE)as$/;"	m
+AUTO_SUBVERSION_FILE_NAME	Makefile	/^AUTO_SUBVERSION_FILE_NAME := $(INC_PATH)\/auto_modsubver.h$/;"	m
+ApnInfo	src/apn.c	/^	ApnInfo		ApnInfo[ MAX_APN_NUM];$/;"	m	file:
+ApnInfo	src/apn.c	/^}ApnInfo;$/;"	t	file:
+CARD_STATUS_DEBUG	src/mbnet.h	27;"	d
+CARD_STATUS_DEBUG_EXIT	src/mbnet.h	29;"	d
+CARD_STATUS_DIALED	src/mbnet.h	23;"	d
+CARD_STATUS_DOWNING	src/mbnet.h	25;"	d
+CARD_STATUS_INITED	src/mbnet.h	13;"	d
+CARD_STATUS_REGISTERED	src/mbnet.h	19;"	d
+CARD_STATUS_SIMED	src/mbnet.h	15;"	d
+CARD_STATUS_STARTED	src/mbnet.h	11;"	d
+CARD_STATUS_STOPPED	src/mbnet.h	9;"	d
+CARD_STATUS_UPPING	src/mbnet.h	21;"	d
+CARD_STATUS_VENDOR	src/mbnet.h	17;"	d
+CC	Makefile	/^CC              = $(CROSS_COMPILE)gcc$/;"	m
+CHAT_EXEC	src/pppd.c	25;"	d	file:
+CON_LOG_LVL_DEBUG	src/debug.h	19;"	d
+CON_LOG_LVL_ERR	src/debug.h	16;"	d
+CON_LOG_LVL_INFO	src/debug.h	18;"	d
+CON_LOG_LVL_NONE	src/debug.h	15;"	d
+CON_LOG_LVL_WARNING	src/debug.h	17;"	d
+CPP	Makefile	/^CPP             = $(CC) -E$/;"	m
+CallIn	src/ndis_broadmobi_bm806c.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_gosuncn_me3630w.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_huawei_me909s.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_huawei_mu709s.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_longsung_u8300.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_longsung_u9300.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_nodecom_nl660.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_quectel_ec20.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_quectel_ec20v2.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_simcom_7600e.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_youfang_n720.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallIn	src/ndis_zte_me3760.c	/^static int CallIn(char *buf, char *Phone)$/;"	f	file:
+CallNum	src/apn.c	/^	char CallNum[MBNET_MAX_CALL_NUM +1];$/;"	m	file:
+Capability	include/mbnet_api.h	/^	int Capability;$/;"	m
+Capability	src/mbnet.h	/^	int Capability;$/;"	m	struct:driver
+CardCB	include/mbnet_api.h	/^typedef void (*CardCB) (const callback_t *p);$/;"	t
+CardNo	include/mbnet_api.h	/^	int CardNo;$/;"	m
+CardNo	src/debug.c	/^	int CardNo;$/;"	m	file:
+CurrentNetMode	include/mbnet_api.h	/^	int CurrentNetMode;$/;"	m
+DBG	src/demo.c	34;"	d	file:
+DOWN	src/demo.c	20;"	d	file:
+DialType	src/mbnet.h	/^	int DialType;$/;"	m	struct:driver
+IMEI	include/mbnet_api.h	/^	char IMEI[MBNET_MAX_IMEI_LEN];$/;"	m
+IMEI_MASK	src/mbnet.h	43;"	d
+IMSI	include/mbnet_api.h	/^	char IMSI[MBNET_MAX_IMSI_LEN];$/;"	m
+IMSI_MASK	src/mbnet.h	41;"	d
+INC_PATH	Makefile	/^INC_PATH 	:= $(WORKSPACE)\/include$/;"	m
+ImsiHead	src/apn.c	/^	int	ImsiHead[ MAX_IMSI_NUM ];$/;"	m	file:
+LD	Makefile	/^LD              = $(CROSS_COMPILE)ld$/;"	m
+LIST_HEAD	src/demo.c	44;"	d	file:
+LIST_HEAD	src/list.h	11;"	d
+LIST_HEAD_INIT	src/demo.c	42;"	d	file:
+LIST_HEAD_INIT	src/list.h	9;"	d
+LOG	src/debug.h	54;"	d
+LOGD	src/debug.h	74;"	d
+LOGE	src/debug.h	65;"	d
+LOGI	src/debug.h	71;"	d
+LOGMODE_CONSOLE	src/debug.h	22;"	d
+LOGMODE_SYSLOG	src/debug.h	21;"	d
+LOGW	src/debug.h	68;"	d
+LOG_LEVEL	src/debug.h	23;"	d
+MAIN_VERSION	src/mbnet.c	48;"	d	file:
+MAJOR_VERSION	src/mbnet.c	49;"	d	file:
+MAKE	Makefile	/^MAKE            = make$/;"	m
+MAX_APN_NUM	src/apn.c	14;"	d	file:
+MAX_IMSI_NUM	src/apn.c	15;"	d	file:
+MAX_NETMODE	src/pppd.h	/^	MAX_NETMODE,$/;"	e
+MAX_VENDOR_NUM	src/apn.c	13;"	d	file:
+MBNET_2G_MODE_CDMA	include/mbnet_api.h	34;"	d
+MBNET_2G_MODE_GSM	include/mbnet_api.h	33;"	d
+MBNET_3G_MODE_CDMA2000	include/mbnet_api.h	36;"	d
+MBNET_3G_MODE_OPERATORS	include/mbnet_api.h	42;"	d
+MBNET_3G_MODE_TDSCDMA	include/mbnet_api.h	37;"	d
+MBNET_3G_MODE_WCDMA	include/mbnet_api.h	35;"	d
+MBNET_4G_MODE_LTE	include/mbnet_api.h	38;"	d
+MBNET_4G_MODE_OPERATORS	include/mbnet_api.h	43;"	d
+MBNET_4G_MODE_TDLTE	include/mbnet_api.h	39;"	d
+MBNET_4G_MODE_TELECOM_FDDLTE	include/mbnet_api.h	40;"	d
+MBNET_4G_MODE_UNICOM_FDDLTE	include/mbnet_api.h	41;"	d
+MBNET_AUTHENTICATION_TYPE_AUTO	include/mbnet_api.h	55;"	d
+MBNET_AUTHENTICATION_TYPE_CHAP	include/mbnet_api.h	54;"	d
+MBNET_AUTHENTICATION_TYPE_NONE	include/mbnet_api.h	52;"	d
+MBNET_AUTHENTICATION_TYPE_PAP	include/mbnet_api.h	53;"	d
+MBNET_BIN	Makefile	/^MBNET_BIN   = mbnet_demo$/;"	m
+MBNET_CARD_CALL_IN	include/mbnet_api.h	70;"	d
+MBNET_CARD_IMSI	include/mbnet_api.h	74;"	d
+MBNET_CARD_LINK_DOWN	include/mbnet_api.h	72;"	d
+MBNET_CARD_LINK_UP	include/mbnet_api.h	71;"	d
+MBNET_CARD_MSG_IN	include/mbnet_api.h	69;"	d
+MBNET_CARD_NET_CHANGED	include/mbnet_api.h	75;"	d
+MBNET_CARD_NET_VENDOR	include/mbnet_api.h	78;"	d
+MBNET_CARD_PLUGIN	include/mbnet_api.h	76;"	d
+MBNET_CARD_PLUGOUT	include/mbnet_api.h	77;"	d
+MBNET_CARD_SIM_EVENT	include/mbnet_api.h	73;"	d
+MBNET_CHINA_MOBILE	include/mbnet_api.h	49;"	d
+MBNET_CHINA_TELECOM	include/mbnet_api.h	48;"	d
+MBNET_CHINA_UNICOM	include/mbnet_api.h	47;"	d
+MBNET_DEBUG	Makefile	/^MBNET_DEBUG   = mbnet_debug$/;"	m
+MBNET_DEBUG_CMD_AT	src/debug.h	/^	MBNET_DEBUG_CMD_AT,$/;"	e
+MBNET_DEBUG_CMD_CLOSE	src/debug.h	/^	MBNET_DEBUG_CMD_CLOSE,$/;"	e
+MBNET_DEBUG_CMD_DEVICES	src/debug.h	/^	MBNET_DEBUG_CMD_DEVICES,$/;"	e
+MBNET_DEBUG_CMD_DISABLE	src/debug.h	/^	MBNET_DEBUG_CMD_DISABLE,$/;"	e
+MBNET_DEBUG_CMD_DRIVERS	src/debug.h	/^	MBNET_DEBUG_CMD_DRIVERS,$/;"	e
+MBNET_DEBUG_CMD_ENABLE	src/debug.h	/^	MBNET_DEBUG_CMD_ENABLE,$/;"	e
+MBNET_DEBUG_CMD_EXIT	src/debug.h	/^	MBNET_DEBUG_CMD_EXIT,$/;"	e
+MBNET_DEBUG_CMD_HELP	src/debug.h	/^	MBNET_DEBUG_CMD_HELP = 0,$/;"	e
+MBNET_DEBUG_CMD_OPEN	src/debug.h	/^	MBNET_DEBUG_CMD_OPEN,$/;"	e
+MBNET_DEBUG_CMD_STATUS	src/debug.h	/^	MBNET_DEBUG_CMD_STATUS,$/;"	e
+MBNET_ERROR	include/mbnet_api.h	64;"	d
+MBNET_INVALID_PA	include/mbnet_api.h	63;"	d
+MBNET_IPC_KEY_C	src/debug.h	28;"	d
+MBNET_IPC_KEY_S	src/debug.h	27;"	d
+MBNET_MAX_APN_LEN	include/mbnet_api.h	11;"	d
+MBNET_MAX_CALL_NUM	include/mbnet_api.h	12;"	d
+MBNET_MAX_IMEI_LEN	include/mbnet_api.h	16;"	d
+MBNET_MAX_IMSI_LEN	include/mbnet_api.h	15;"	d
+MBNET_MAX_INTERFACE_NAME	include/mbnet_api.h	19;"	d
+MBNET_MAX_NETVENDOR_NAME	include/mbnet_api.h	18;"	d
+MBNET_MAX_PASSWORD_LEN	include/mbnet_api.h	14;"	d
+MBNET_MAX_PHONE_NUM	include/mbnet_api.h	21;"	d
+MBNET_MAX_PHYSLOT_LEN	include/mbnet_api.h	17;"	d
+MBNET_MAX_PRODUCT_NAME	include/mbnet_api.h	10;"	d
+MBNET_MAX_SMS_LEN	include/mbnet_api.h	22;"	d
+MBNET_MAX_USENAME_LEN	include/mbnet_api.h	13;"	d
+MBNET_MAX_VENDOR_NAME	include/mbnet_api.h	9;"	d
+MBNET_MODE_UNKNOWN	include/mbnet_api.h	32;"	d
+MBNET_NETSCANMODE_2G_ONLY	include/mbnet_api.h	26;"	d
+MBNET_NETSCANMODE_3G_ONLY	include/mbnet_api.h	27;"	d
+MBNET_NETSCANMODE_4G_ONLY	include/mbnet_api.h	28;"	d
+MBNET_NETSCANMODE_AUTO	include/mbnet_api.h	25;"	d
+MBNET_NO_DEVICE	include/mbnet_api.h	60;"	d
+MBNET_NO_SIGNAL	include/mbnet_api.h	62;"	d
+MBNET_NO_SIM_IN	include/mbnet_api.h	61;"	d
+MBNET_OK	include/mbnet_api.h	59;"	d
+MBNET_RTF_UP	src/mbnet.c	217;"	d	file:
+MBNET_SHARE	Makefile	/^MBNET_SHARE  = libmbnet.so$/;"	m
+MBNET_STATIC	Makefile	/^MBNET_STATIC = libmbnet.a$/;"	m
+MINOR_VERSION	src/mbnet.c	50;"	d	file:
+MOBILE_NETMODE	src/pppd.h	/^	MOBILE_NETMODE,$/;"	e
+MbnetDebug	src/mbnet.c	/^void MbnetDebug(int enable)$/;"	f
+MbnetGetCardInfo	src/mbnet.c	/^int MbnetGetCardInfo(int CardNo, card_t *card)$/;"	f
+MbnetGetVersion	src/mbnet.c	/^char *MbnetGetVersion( void )$/;"	f
+MbnetInit	src/mbnet.c	/^int MbnetInit( CardCB cb)$/;"	f
+MbnetNetScanMode	src/mbnet.c	/^int MbnetNetScanMode(int CardNo, dial_t *cfg)$/;"	f
+MbnetReset	src/mbnet.c	/^int MbnetReset(int CardNo)$/;"	f
+MbnetStart	src/mbnet.c	/^int MbnetStart(int CardNo, dial_t *cfg)$/;"	f
+MbnetStop	src/mbnet.c	/^int MbnetStop(int CardNo)$/;"	f
+MsgIn	src/ndis_gosuncn_me3630w.c	/^static int MsgIn(char *buf, sms_t *sms,const thread_t *thread)$/;"	f	file:
+MsgIn	src/ndis_longsung_u8300.c	/^static int MsgIn(char *buf, sms_t *sms,const thread_t *thread)$/;"	f	file:
+MsgIn	src/ndis_longsung_u9300.c	/^static int MsgIn(char *buf, sms_t *sms,const thread_t *thread)$/;"	f	file:
+MsgIn	src/ndis_nodecom_nl660.c	/^static int MsgIn(char *buf, sms_t *sms,const thread_t *thread)$/;"	f	file:
+MsgIn	src/ndis_quectel_ec20.c	/^static int MsgIn(char *buf, sms_t *sms,const thread_t *thread)$/;"	f	file:
+MsgIn	src/ndis_quectel_ec20v2.c	/^static int MsgIn(char *buf, sms_t *sms,const thread_t *thread)$/;"	f	file:
+MsgIn	src/ndis_simcom_7600e.c	/^static int MsgIn(char *buf, sms_t *sms,const thread_t *thread)$/;"	f	file:
+MsgIn	src/ndis_youfang_n720.c	/^static int MsgIn(char *buf, sms_t *sms,const thread_t *thread)$/;"	f	file:
+NDIS_DIAL_TYPE	src/mbnet.h	33;"	d
+NDIS_DISCON_MASK	src/mbnet.h	44;"	d
+NETMODE_MASK	src/mbnet.h	39;"	d
+NEXT_ARG	src/adv_route.c	42;"	d	file:
+NLMSG_TAIL	src/adv_route.c	34;"	d	file:
+NM	Makefile	/^NM              = $(CROSS_COMPILE)nm$/;"	m
+NetMode	src/apn.c	/^	int 	NetMode;$/;"	m	file:
+NetVendor	include/mbnet_api.h	/^	char NetVendor[MBNET_MAX_NETVENDOR_NAME ];$/;"	m
+NetVendor	src/apn.c	/^	char 	NetVendor[MBNET_MAX_NETVENDOR_NAME ];$/;"	m	file:
+OBJCOPY	Makefile	/^OBJCOPY         = $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP         = $(CROSS_COMPILE)objdump$/;"	m
+OBJS	Makefile	/^OBJS    :=      $(SRCS:.c=.o)$/;"	m
+OUT_PATH	Makefile	/^OUT_PATH = $(WORKSPACE)\/release$/;"	m
+OpenTTY	src/tty.c	/^int OpenTTY(char *dev)$/;"	f
+PLUGIN	src/demo.c	18;"	d	file:
+PPPD_DIAL_TYPE	src/mbnet.h	32;"	d
+PPPD_EXEC	src/pppd.c	24;"	d	file:
+PassWord	src/apn.c	/^	char PassWord[MBNET_MAX_PASSWORD_LEN +1];$/;"	m	file:
+PhySlot	include/mbnet_api.h	/^	char PhySlot[MBNET_MAX_PHYSLOT_LEN];$/;"	m
+Pid	include/mbnet_api.h	/^	unsigned int Pid;$/;"	m
+Pid	src/mbnet.h	/^	unsigned int Pid;$/;"	m	struct:driver
+QMANAGE_DIAL_TYPE	src/mbnet.h	34;"	d
+QMANAGE_EXEC	src/qmanage.c	24;"	d	file:
+RESPONSE_MAX_LEN	src/debug.h	25;"	d
+RM	Makefile	/^RM              = rm -rf$/;"	m
+SHELL	Makefile	/^	SHELL=\/bin\/bash$/;"	m
+SIGNAL_MASK	src/mbnet.h	40;"	d
+SIMCARD_MASK	src/mbnet.h	38;"	d
+SMS_MASK	src/mbnet.h	42;"	d
+SRCS	Makefile	/^SRCS    :=      $(foreach cf, $(SRC_PATH), $(wildcard $(cf)\/*.c))$/;"	m
+SRC_PATH	Makefile	/^SRC_PATH 	:= $(WORKSPACE)\/src $/;"	m
+STRIP	Makefile	/^STRIP           = $(CROSS_COMPILE)strip$/;"	m
+SendCmd	src/tty.c	/^int SendCmd(thread_t *thread,char *buf)$/;"	f
+SetConsoleLevel	src/debug.c	/^void SetConsoleLevel(int level)$/;"	f
+SetOpt	src/tty.c	/^int SetOpt(int fd,int nSpeed, int nBits, char nEvent, int nStop)$/;"	f
+SigStrength	include/mbnet_api.h	/^	int SigStrength;      $/;"	m
+SimCard	include/mbnet_api.h	/^	int SimCard;    \/*255--Invalid; 1--valid; other value--Invalid*\/$/;"	m
+TELECOM_NETMODE	src/pppd.h	/^	TELECOM_NETMODE = 0,	$/;"	e
+UDHCPC_PATH	src/ndis.c	20;"	d	file:
+UNICOM_NETMODE	src/pppd.h	/^	UNICOM_NETMODE,$/;"	e
+UP	src/demo.c	21;"	d	file:
+USB2SERIALFILE	src/mbnet.c	52;"	d	file:
+UserName	src/apn.c	/^	char UserName[MBNET_MAX_USENAME_LEN +1];$/;"	m	file:
+VENDOR	src/demo.c	19;"	d	file:
+VendorInfo	src/apn.c	/^}VendorInfo;$/;"	t	file:
+Vid	include/mbnet_api.h	/^	unsigned int Vid;$/;"	m
+Vid	src/mbnet.h	/^	unsigned int Vid;$/;"	m	struct:driver
+WORKSPACE	Makefile	/^WORKSPACE 	:= $(shell pwd)$/;"	m
+_GNU_SOURCE	src/mbnet.c	1;"	d	file:
+_GNU_SOURCE	src/ndis.c	1;"	d	file:
+_GNU_SOURCE	src/pppd.c	1;"	d	file:
+_GNU_SOURCE	src/qmanage.c	1;"	d	file:
+__LIB_ADV_ROUTE_H__	src/adv_route.h	2;"	d
+__MBNET_APN_H	src/apn.h	2;"	d
+__MBNET_CORE_H__	src/mbnet.h	2;"	d
+__MBNET_DEBUG_H	src/debug.h	5;"	d
+__MBNET_DRIVER_H	src/driver.h	2;"	d
+__MBNET_LIST_H	src/list.h	2;"	d
+__MBNET_MODULE_H__	include/mbnet_api.h	2;"	d
+__MBNET_NDIS_H	src/ndis.h	2;"	d
+__MBNET_QMANAGE_H	src/qmanage.h	2;"	d
+__MBNET_TTY_H__	src/tty.h	2;"	d
+__PPPD_H	src/pppd.h	2;"	d
+__list_add	src/demo.c	/^static inline void __list_add(struct list_head *new,$/;"	f	file:
+__list_add	src/list.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_del	src/demo.c	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f	file:
+__list_del	src/list.h	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+active_devices	src/mbnet.c	/^}active_devices;$/;"	v
+add_route	src/mbnet.c	/^static void add_route( char *iface, unsigned int ip , int index)$/;"	f	file:
+addattr32	src/adv_route.c	/^static int addattr32(struct nlmsghdr *n, int maxlen, int type, __u32 data)$/;"	f	file:
+addattr_l	src/adv_route.c	/^static int addattr_l(struct nlmsghdr *n, int maxlen, int type, const void *data, $/;"	f	file:
+addr	src/adv_route.c	/^	unsigned char	addr[8];$/;"	m	struct:idxmap	file:
+advrt_do_route_cmd	src/adv_route.c	/^int advrt_do_route_cmd(char *cmd)$/;"	f
+advrt_do_rule_cmd	src/adv_route.c	/^int advrt_do_rule_cmd(char *cmd)$/;"	f
+alen	src/adv_route.c	/^	int		alen;$/;"	m	struct:idxmap	file:
+aligned_u64	src/mbnet.c	20;"	d	file:
+at_args	src/debug.c	/^}at_args;$/;"	v	file:
+at_echo_back	src/debug.c	/^static void *at_echo_back(void *args)$/;"	f	file:
+at_fd	src/debug.c	/^	int at_fd;$/;"	m	file:
+at_fd	src/mbnet.h	/^	int  at_fd;$/;"	m	struct:thread
+atpath	src/mbnet.h	/^	int atpath;\/\/offset$/;"	m	struct:driver
+bitlen	src/adv_route.c	/^	__s16 bitlen;$/;"	m	file:
+bitmap	src/debug.c	/^	unsigned int bitmap;$/;"	m	file:
+bitmap	src/mbnet.c	/^	unsigned int bitmap;$/;"	m	file:
+broadmobi_bm806c_driver	src/ndis_broadmobi_bm806c.c	/^static driver_t broadmobi_bm806c_driver;$/;"	v	file:
+broadmobi_bm806c_driver_init	src/ndis_broadmobi_bm806c.c	/^driver_t * broadmobi_bm806c_driver_init( void )$/;"	f
+broadmobi_bm806c_fix	src/ndis_broadmobi_bm806c.c	/^static void broadmobi_bm806c_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+broadmobi_bm806c_get_one_msg	src/ndis_broadmobi_bm806c.c	/^static int broadmobi_bm806c_get_one_msg( const thread_t *thread, char *msg , unsigned int len)$/;"	f	file:
+broadmobi_bm806c_imsi	src/ndis_broadmobi_bm806c.c	/^static void broadmobi_bm806c_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+broadmobi_bm806c_init	src/ndis_broadmobi_bm806c.c	/^static void broadmobi_bm806c_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+broadmobi_bm806c_netmode	src/ndis_broadmobi_bm806c.c	/^static void broadmobi_bm806c_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+broadmobi_bm806c_process	src/ndis_broadmobi_bm806c.c	/^static int broadmobi_bm806c_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+broadmobi_bm806c_reset	src/ndis_broadmobi_bm806c.c	/^static void broadmobi_bm806c_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+broadmobi_bm806c_send_cmd	src/ndis_broadmobi_bm806c.c	/^static void broadmobi_bm806c_send_cmd( const thread_t *thread, char *cmd)$/;"	f	file:
+broadmobi_bm806c_signal	src/ndis_broadmobi_bm806c.c	/^static void broadmobi_bm806c_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+broadmobi_bm806c_sim	src/ndis_broadmobi_bm806c.c	/^static void broadmobi_bm806c_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+broadmobi_bm806c_stop	src/ndis_broadmobi_bm806c.c	/^static void broadmobi_bm806c_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+build_chat_script_file	src/pppd.c	/^static int build_chat_script_file( const char *script, const card_t *card, const dial_t *cfg)$/;"	f	file:
+build_connect_script_file	src/pppd.c	/^static int build_connect_script_file(const char *script ,const card_t *card, const dial_t *cfg)$/;"	f	file:
+build_disconnect_script_file	src/pppd.c	/^static int build_disconnect_script_file(const char *script, const card_t *card, const dial_t *cfg)$/;"	f	file:
+bytelen	src/adv_route.c	/^	__u8 bytelen;$/;"	m	file:
+callback_t	include/mbnet_api.h	/^}callback_t;$/;"	t
+card	include/mbnet_api.h	/^	int card;$/;"	m
+card	src/demo.c	/^	card_t card;$/;"	m	file:
+card_t	include/mbnet_api.h	/^} card_t;$/;"	t
+cardinst_t	src/mbnet.h	/^}cardinst_t;$/;"	t
+cardlink	src/mbnet.c	/^static int cardlink( char *iface, unsigned int *local_ip, unsigned int *dst_ip, unsigned int *netmask)$/;"	f	file:
+cardnums	src/debug.c	/^	unsigned int cardnums;$/;"	m	file:
+cardnums	src/mbnet.c	/^	unsigned int cardnums;$/;"	m	file:
+cfg	src/mbnet.h	/^	dial_t cfg;$/;"	m	struct:instance
+cmd	src/debug.h	/^		unsigned int cmd;$/;"	m	struct:msg_buf::<anonymous>
+convert_to_cmd	src/debug.h	/^static inline unsigned int convert_to_cmd(const char *data)$/;"	f
+count	src/mbnet.h	/^	unsigned int count;$/;"	m	struct:thread
+create_hotplug_thread	src/mbnet.c	/^static int create_hotplug_thread ( void )$/;"	f	file:
+create_service_thread	src/mbnet.c	/^static int create_service_thread(cardinst_t *card)$/;"	f	file:
+data	include/mbnet_api.h	/^	const void *data;$/;"	m
+data	src/adv_route.c	/^	__u32 data[4];$/;"	m	file:
+data	src/debug.h	/^		char data[512];$/;"	m	struct:msg_buf::<anonymous>
+data	src/mbnet.h	/^	const void *data;$/;"	m	struct:driver
+datapath	src/mbnet.h	/^	int datapath;\/\/offset$/;"	m	struct:driver
+debug_server	src/debug.c	/^void *debug_server( void *arg)$/;"	f
+debug_server_init	src/mbnet.c	/^static int debug_server_init( void )$/;"	f	file:
+del_route	src/mbnet.c	/^static void del_route(  char *iface, unsigned int ip , int index)$/;"	f	file:
+dev	src/mbnet.h	/^	card_t dev;$/;"	m	struct:instance
+dev_mutex	src/mbnet.h	/^	pthread_mutex_t dev_mutex;$/;"	m	struct:instance
+devices_scan	src/mbnet.c	/^static int devices_scan( void )$/;"	f	file:
+dial_pid	src/mbnet.h	/^	pid_t dial_pid;$/;"	m	struct:thread
+dial_t	include/mbnet_api.h	/^}dial_t;$/;"	t
+dns1_addr	include/mbnet_api.h	/^	unsigned int dns1_addr;$/;"	m
+dns2_addr	include/mbnet_api.h	/^	unsigned int dns2_addr;$/;"	m
+do_iproute	src/adv_route.c	/^static int do_iproute(int argc, char **argv)$/;"	f	file:
+do_iprule	src/adv_route.c	/^static int do_iprule(int argc, char **argv)$/;"	f	file:
+driver	src/mbnet.h	/^	const struct driver *driver;$/;"	m	struct:instance
+driver	src/mbnet.h	/^typedef struct driver {$/;"	s
+driver_init	src/driver.c	/^typedef driver_t * (*driver_init)(void);$/;"	t	file:
+driver_t	src/mbnet.h	/^}driver_t;$/;"	t
+drivers_init	src/driver.c	/^void drivers_init( void )$/;"	f
+dump	src/adv_route.c	/^	__u32			dump;$/;"	m	struct:rtnl_handle	file:
+event	include/mbnet_api.h	/^	int event;$/;"	m
+event_handler	src/demo.c	/^static void event_handler(const callback_t *cb)$/;"	f	file:
+family	src/adv_route.c	/^	__u8 family;$/;"	m	file:
+fd	src/adv_route.c	/^	int			fd;$/;"	m	struct:rtnl_handle	file:
+fd_mutex	src/mbnet.h	/^	pthread_mutex_t fd_mutex;$/;"	m	struct:thread
+find_empty_location	src/mbnet.c	/^static int find_empty_location( unsigned int data)$/;"	f	file:
+fix	src/mbnet.h	/^	void (*fix)(  const thread_t *thread, const card_t *dev,  const dial_t *cfg );$/;"	m	struct:driver
+flag	src/mbnet.h	/^	unsigned int flag;	$/;"	m	struct:thread
+flags	src/adv_route.c	/^	unsigned	flags;$/;"	m	struct:idxmap	file:
+function	Makefile	/^check-function = \\$/;"	m
+gChinaMobile	src/apn.c	/^static VendorInfo gChinaMobile = $/;"	v	file:
+gChinaMobileIOT	src/apn.c	/^static VendorInfo gChinaMobileIOT =$/;"	v	file:
+gChinaTelecom	src/apn.c	/^static VendorInfo gChinaTelecom = $/;"	v	file:
+gChinaUnicom	src/apn.c	/^static VendorInfo gChinaUnicom = $/;"	v	file:
+gChinaUnicomIOT	src/apn.c	/^static VendorInfo gChinaUnicomIOT =$/;"	v	file:
+gVendorInfo	src/apn.c	/^VendorInfo *gVendorInfo[ MAX_VENDOR_NUM ]={$/;"	v
+g_cb	src/mbnet.c	/^static CardCB  g_cb = NULL;$/;"	v	file:
+g_debug_tid	src/mbnet.c	/^static pthread_t   g_debug_tid;$/;"	v	file:
+g_scan_tid	src/mbnet.c	/^static pthread_t   g_scan_tid;$/;"	v	file:
+gateway	include/mbnet_api.h	/^	unsigned int gateway;$/;"	m
+gdrivers	src/driver.c	/^static driver_init gdrivers[]={$/;"	v	file:
+get_addr	src/adv_route.c	/^static int get_addr(inet_prefix *dst, const char *arg, int family)$/;"	f	file:
+get_addr32	src/adv_route.c	/^static __u32 get_addr32(const char *name)$/;"	f	file:
+get_addr_1	src/adv_route.c	/^static int get_addr_1(inet_prefix *addr, const char *name, int family)$/;"	f	file:
+get_device	src/mbnet.c	/^int get_device( cardinst_t *inst)$/;"	f
+get_driver	src/driver.c	/^const driver_t * get_driver(unsigned int Vid,unsigned int Pid)$/;"	f
+get_gateway	src/mbnet.c	/^int get_gateway(unsigned int *gateway, char *iface)$/;"	f
+get_general_apn	src/apn.c	/^int get_general_apn(cardinst_t *inst)$/;"	f
+get_iface_info	src/mbnet.c	/^static int get_iface_info( char *iface, int dial_type, card_t *dev)$/;"	f	file:
+get_iface_statistics	src/mbnet.c	/^static int get_iface_statistics(const char *netPort, unsigned int *rx ,unsigned int  *tx)$/;"	f	file:
+get_integer	src/adv_route.c	/^static int get_integer(int *val, const char *arg, int base)$/;"	f	file:
+get_ip	src/mbnet.c	/^static int get_ip( char *nic , unsigned int *local_ip, unsigned int *dst_ip, unsigned int *netmask)$/;"	f	file:
+get_msgid	src/debug.c	/^static int get_msgid(void)$/;"	f	file:
+get_net_vendor	src/apn.c	/^int get_net_vendor(card_t *dev)$/;"	f
+get_netdev_name	src/ndis.c	/^static int get_netdev_name( char *nic , char *physlot)$/;"	f	file:
+get_one_msg	src/mbnet.h	/^	int (*get_one_msg)(const thread_t *thread, char *msg, unsigned int len);$/;"	m	struct:driver
+get_pid_by_ifname	src/ndis.c	/^static pid_t get_pid_by_ifname( char *ifname )$/;"	f	file:
+get_prefix	src/adv_route.c	/^static int get_prefix(inet_prefix *dst, const char *arg, int family)$/;"	f	file:
+get_prefix_1	src/adv_route.c	/^static int get_prefix_1(inet_prefix *dst, const char *arg, int family)$/;"	f	file:
+get_unsigned	src/adv_route.c	/^static int get_unsigned(unsigned *val, const char *arg, int base)$/;"	f	file:
+gosuncn_me3630w_driver	src/ndis_gosuncn_me3630w.c	/^static driver_t gosuncn_me3630w_driver;$/;"	v	file:
+gosuncn_me3630w_driver_init	src/ndis_gosuncn_me3630w.c	/^driver_t * gosuncn_me3630w_driver_init( void )$/;"	f
+gosuncn_me3630w_fix	src/ndis_gosuncn_me3630w.c	/^static void gosuncn_me3630w_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+gosuncn_me3630w_get_one_msg	src/ndis_gosuncn_me3630w.c	/^static int gosuncn_me3630w_get_one_msg( const thread_t *thread , char *msg , unsigned int len)$/;"	f	file:
+gosuncn_me3630w_imsi	src/ndis_gosuncn_me3630w.c	/^static void gosuncn_me3630w_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+gosuncn_me3630w_init	src/ndis_gosuncn_me3630w.c	/^static void gosuncn_me3630w_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+gosuncn_me3630w_netmode	src/ndis_gosuncn_me3630w.c	/^static void gosuncn_me3630w_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+gosuncn_me3630w_netscanmode	src/ndis_gosuncn_me3630w.c	/^static void gosuncn_me3630w_netscanmode( const thread_t *thread, const card_t *dev, const dial_t *cfg)$/;"	f	file:
+gosuncn_me3630w_process	src/ndis_gosuncn_me3630w.c	/^static int gosuncn_me3630w_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+gosuncn_me3630w_reset	src/ndis_gosuncn_me3630w.c	/^static void gosuncn_me3630w_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+gosuncn_me3630w_send_cmd	src/ndis_gosuncn_me3630w.c	/^static void gosuncn_me3630w_send_cmd( const thread_t *thread , char *cmd)$/;"	f	file:
+gosuncn_me3630w_signal	src/ndis_gosuncn_me3630w.c	/^static void gosuncn_me3630w_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+gosuncn_me3630w_sim	src/ndis_gosuncn_me3630w.c	/^static void gosuncn_me3630w_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+gosuncn_me3630w_stop	src/ndis_gosuncn_me3630w.c	/^static void gosuncn_me3630w_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+head	src/debug.c	/^	struct list_head head;$/;"	m	file:
+head	src/mbnet.c	/^	struct list_head head;$/;"	m	file:
+helper	src/debug.c	/^const static char *helper="usage:\\r\\n \\$/;"	v	file:
+huawei_me909s_driver	src/ndis_huawei_me909s.c	/^static driver_t huawei_me909s_driver;$/;"	v	file:
+huawei_me909s_driver_init	src/ndis_huawei_me909s.c	/^driver_t * huawei_me909s_driver_init( void )$/;"	f
+huawei_me909s_fix	src/ndis_huawei_me909s.c	/^static void huawei_me909s_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+huawei_me909s_get_one_msg	src/ndis_huawei_me909s.c	/^static int huawei_me909s_get_one_msg( const thread_t *thread , char *msg , unsigned int len)$/;"	f	file:
+huawei_me909s_imsi	src/ndis_huawei_me909s.c	/^static void huawei_me909s_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+huawei_me909s_init	src/ndis_huawei_me909s.c	/^static void huawei_me909s_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+huawei_me909s_netmode	src/ndis_huawei_me909s.c	/^static void huawei_me909s_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+huawei_me909s_process	src/ndis_huawei_me909s.c	/^static int huawei_me909s_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+huawei_me909s_reset	src/ndis_huawei_me909s.c	/^static void huawei_me909s_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+huawei_me909s_send_cmd	src/ndis_huawei_me909s.c	/^static void huawei_me909s_send_cmd( const thread_t *thread , char *cmd)$/;"	f	file:
+huawei_me909s_signal	src/ndis_huawei_me909s.c	/^static void huawei_me909s_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+huawei_me909s_sim	src/ndis_huawei_me909s.c	/^static void huawei_me909s_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+huawei_me909s_stop	src/ndis_huawei_me909s.c	/^static void huawei_me909s_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+huawei_mu709s_driver	src/ndis_huawei_mu709s.c	/^static driver_t huawei_mu709s_driver;$/;"	v	file:
+huawei_mu709s_driver_init	src/ndis_huawei_mu709s.c	/^driver_t * huawei_mu709s_driver_init( void )$/;"	f
+huawei_mu709s_fix	src/ndis_huawei_mu709s.c	/^static void huawei_mu709s_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+huawei_mu709s_get_one_msg	src/ndis_huawei_mu709s.c	/^static int huawei_mu709s_get_one_msg( const thread_t *thread , char *msg , unsigned int len)$/;"	f	file:
+huawei_mu709s_imsi	src/ndis_huawei_mu709s.c	/^static void huawei_mu709s_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+huawei_mu709s_init	src/ndis_huawei_mu709s.c	/^static void huawei_mu709s_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+huawei_mu709s_netmode	src/ndis_huawei_mu709s.c	/^static void huawei_mu709s_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+huawei_mu709s_process	src/ndis_huawei_mu709s.c	/^static int huawei_mu709s_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+huawei_mu709s_reset	src/ndis_huawei_mu709s.c	/^static void huawei_mu709s_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+huawei_mu709s_send_cmd	src/ndis_huawei_mu709s.c	/^static void huawei_mu709s_send_cmd( const thread_t *thread , char *cmd)$/;"	f	file:
+huawei_mu709s_signal	src/ndis_huawei_mu709s.c	/^static void huawei_mu709s_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+huawei_mu709s_sim	src/ndis_huawei_mu709s.c	/^static void huawei_mu709s_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+huawei_mu709s_stop	src/ndis_huawei_mu709s.c	/^static void huawei_mu709s_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+iAuthentication	include/mbnet_api.h	/^	int iAuthentication;$/;"	m
+iInDataCount	include/mbnet_api.h	/^	unsigned int iInDataCount;$/;"	m
+iNetScanMode	include/mbnet_api.h	/^	int iNetScanMode;$/;"	m
+iOnLineTime	include/mbnet_api.h	/^	unsigned int iOnLineTime; $/;"	m
+iOutDataCount	include/mbnet_api.h	/^	unsigned int iOutDataCount;$/;"	m
+idxmap	src/adv_route.c	/^static struct idxmap *idxmap[16];$/;"	v	file:
+idxmap	src/adv_route.c	/^struct idxmap$/;"	s	file:
+iface	include/mbnet_api.h	/^	char iface[MBNET_MAX_INTERFACE_NAME ];$/;"	m
+ifdown	src/ndis.c	/^static int ifdown(char *nic)$/;"	f	file:
+imei	src/mbnet.h	/^	char imei[MBNET_MAX_IMEI_LEN];$/;"	m	struct:msg
+imsi	src/mbnet.h	/^	char imsi[MBNET_MAX_IMSI_LEN];$/;"	m	struct:msg
+imsi	src/mbnet.h	/^	void (*imsi)( const thread_t *thread , const card_t *dev);$/;"	m	struct:driver
+inactive_mutex	src/mbnet.c	/^pthread_mutex_t inactive_mutex;$/;"	v
+index	src/adv_route.c	/^	int		index;$/;"	m	struct:idxmap	file:
+inet_prefix	src/adv_route.c	/^} inet_prefix;$/;"	t	file:
+init	src/mbnet.h	/^	void (*init)( const thread_t *thread, const card_t *dev);$/;"	m	struct:driver
+instance	src/mbnet.h	/^typedef struct instance {$/;"	s
+instance_init	src/mbnet.c	/^static int instance_init( void )$/;"	f	file:
+iproute_modify	src/adv_route.c	/^static int iproute_modify(int cmd, unsigned flags, int argc, char **argv)$/;"	f	file:
+iprule_modify	src/adv_route.c	/^static int iprule_modify(int cmd, int argc, char **argv)$/;"	f	file:
+is_iface_up	src/mbnet.c	/^static int is_iface_up(char *name)$/;"	f	file:
+is_valid	src/driver.c	/^static int is_valid(driver_t *d)$/;"	f	file:
+list_add_tail	src/demo.c	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f	file:
+list_add_tail	src/list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_del	src/demo.c	/^static inline void list_del(struct list_head *entry)$/;"	f	file:
+list_del	src/list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_empty	src/demo.c	/^static inline int list_empty(const struct list_head *head)$/;"	f	file:
+list_empty	src/list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_entry	src/demo.c	40;"	d	file:
+list_entry	src/list.h	7;"	d
+list_for_each	src/demo.c	46;"	d	file:
+list_for_each	src/list.h	13;"	d
+list_for_each_safe	src/demo.c	48;"	d	file:
+list_for_each_safe	src/list.h	15;"	d
+list_head	src/demo.c	/^struct list_head{$/;"	s	file:
+list_head	src/list.h	/^struct list_head{$/;"	s
+list_head_init	src/demo.c	/^static inline void list_head_init(struct list_head *list)$/;"	f	file:
+list_head_init	src/list.h	/^static inline void list_head_init(struct list_head *list)$/;"	f
+list_lock	src/demo.c	/^pthread_mutex_t  list_lock;$/;"	v
+ll_init_map	src/adv_route.c	/^static int ll_init_map(struct rtnl_handle *rth)$/;"	f	file:
+ll_name_to_index	src/adv_route.c	/^static int ll_name_to_index(const char *name)$/;"	f	file:
+ll_remember_index	src/adv_route.c	/^static int ll_remember_index(const struct sockaddr_nl *who, $/;"	f	file:
+local	src/adv_route.c	/^	struct sockaddr_nl	local;$/;"	m	struct:rtnl_handle	file:
+local_ipaddr	include/mbnet_api.h	/^	unsigned int local_ipaddr;$/;"	m
+longsung_u6300_driver	src/pppd_longsung_u6300.c	/^static driver_t longsung_u6300_driver;$/;"	v	file:
+longsung_u6300_driver_init	src/pppd_longsung_u6300.c	/^driver_t * longsung_u6300_driver_init( void )$/;"	f
+longsung_u6300_fix	src/pppd_longsung_u6300.c	/^static void longsung_u6300_fix (const thread_t *thread , const card_t *dev , const dial_t *cfg)$/;"	f	file:
+longsung_u6300_get_one_msg	src/pppd_longsung_u6300.c	/^static int longsung_u6300_get_one_msg( const thread_t *thread , char *msg, unsigned int len)$/;"	f	file:
+longsung_u6300_imsi	src/pppd_longsung_u6300.c	/^static void longsung_u6300_imsi( const thread_t *thread, const card_t *dev)$/;"	f	file:
+longsung_u6300_init	src/pppd_longsung_u6300.c	/^static void longsung_u6300_init( const thread_t *thread , const card_t *dev)$/;"	f	file:
+longsung_u6300_netmode	src/pppd_longsung_u6300.c	/^static void longsung_u6300_netmode( const thread_t *thread, const card_t *dev)$/;"	f	file:
+longsung_u6300_process	src/pppd_longsung_u6300.c	/^static int longsung_u6300_process(   const thread_t *thread, const card_t *dev, msg_t *msg)$/;"	f	file:
+longsung_u6300_reset	src/pppd_longsung_u6300.c	/^static void longsung_u6300_reset( const thread_t *thread, const card_t *dev)$/;"	f	file:
+longsung_u6300_script	src/pppd_longsung_u6300.c	/^static pppd_script_t longsung_u6300_script =$/;"	v	file:
+longsung_u6300_send_cmd	src/pppd_longsung_u6300.c	/^static void longsung_u6300_send_cmd( const thread_t *thread , char *cmd)$/;"	f	file:
+longsung_u6300_signal	src/pppd_longsung_u6300.c	/^static void longsung_u6300_signal ( const thread_t *thread , const card_t *dev )$/;"	f	file:
+longsung_u6300_sim	src/pppd_longsung_u6300.c	/^static void longsung_u6300_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+longsung_u6300_stop	src/pppd_longsung_u6300.c	/^static void longsung_u6300_stop( const thread_t *thread, const card_t *dev)$/;"	f	file:
+longsung_u8300c_driver	src/ndis_longsung_u8300.c	/^static driver_t longsung_u8300c_driver;$/;"	v	file:
+longsung_u8300c_driver_init	src/ndis_longsung_u8300.c	/^driver_t * longsung_u8300c_driver_init( void )$/;"	f
+longsung_u8300c_fix	src/ndis_longsung_u8300.c	/^static void longsung_u8300c_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+longsung_u8300c_get_one_msg	src/ndis_longsung_u8300.c	/^static int longsung_u8300c_get_one_msg( const thread_t *thread, char *msg , unsigned int len)$/;"	f	file:
+longsung_u8300c_imsi	src/ndis_longsung_u8300.c	/^static void longsung_u8300c_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+longsung_u8300c_init	src/ndis_longsung_u8300.c	/^static void longsung_u8300c_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+longsung_u8300c_netmode	src/ndis_longsung_u8300.c	/^static void longsung_u8300c_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+longsung_u8300c_netscanmode	src/ndis_longsung_u8300.c	/^static void longsung_u8300c_netscanmode( const thread_t *thread, const card_t *dev, const dial_t *cfg)$/;"	f	file:
+longsung_u8300c_process	src/ndis_longsung_u8300.c	/^static int longsung_u8300c_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+longsung_u8300c_reset	src/ndis_longsung_u8300.c	/^static void longsung_u8300c_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+longsung_u8300c_send_cmd	src/ndis_longsung_u8300.c	/^static void longsung_u8300c_send_cmd( const thread_t *thread, char *cmd)$/;"	f	file:
+longsung_u8300c_signal	src/ndis_longsung_u8300.c	/^static void longsung_u8300c_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+longsung_u8300c_sim	src/ndis_longsung_u8300.c	/^static void longsung_u8300c_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+longsung_u8300c_stop	src/ndis_longsung_u8300.c	/^static void longsung_u8300c_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+longsung_u9300c_driver	src/ndis_longsung_u9300.c	/^static driver_t longsung_u9300c_driver;$/;"	v	file:
+longsung_u9300c_driver_init	src/ndis_longsung_u9300.c	/^driver_t * longsung_u9300c_driver_init( void )$/;"	f
+longsung_u9300c_fix	src/ndis_longsung_u9300.c	/^static void longsung_u9300c_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+longsung_u9300c_get_one_msg	src/ndis_longsung_u9300.c	/^static int longsung_u9300c_get_one_msg( const thread_t *thread, char *msg , unsigned int len)$/;"	f	file:
+longsung_u9300c_imsi	src/ndis_longsung_u9300.c	/^static void longsung_u9300c_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+longsung_u9300c_init	src/ndis_longsung_u9300.c	/^static void longsung_u9300c_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+longsung_u9300c_netmode	src/ndis_longsung_u9300.c	/^static void longsung_u9300c_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+longsung_u9300c_netscanmode	src/ndis_longsung_u9300.c	/^static void longsung_u9300c_netscanmode( const thread_t *thread, const card_t *dev, const dial_t *cfg)$/;"	f	file:
+longsung_u9300c_process	src/ndis_longsung_u9300.c	/^static int longsung_u9300c_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+longsung_u9300c_reset	src/ndis_longsung_u9300.c	/^static void longsung_u9300c_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+longsung_u9300c_send_cmd	src/ndis_longsung_u9300.c	/^static void longsung_u9300c_send_cmd( const thread_t *thread, char *cmd)$/;"	f	file:
+longsung_u9300c_signal	src/ndis_longsung_u9300.c	/^static void longsung_u9300c_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+longsung_u9300c_sim	src/ndis_longsung_u9300.c	/^static void longsung_u9300c_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+longsung_u9300c_stop	src/ndis_longsung_u9300.c	/^static void longsung_u9300c_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+main	debug/mbnet_debug.c	/^int main(void)$/;"	f
+main	src/demo.c	/^int main(int argc, char *argv[])$/;"	f
+mask	src/mbnet.h	/^	unsigned int mask;$/;"	m	struct:msg
+matches	src/adv_route.c	/^static int matches(const char *cmd, const char *pattern)$/;"	f	file:
+mbnet_ipc_send	src/debug.h	/^static inline int mbnet_ipc_send(int msgid, long mtype, const char *p)$/;"	f
+mbnet_logmode	src/debug.c	/^unsigned int mbnet_logmode = LOGMODE_SYSLOG;$/;"	v
+module_t	src/demo.c	/^}module_t;$/;"	t	file:
+msg	include/mbnet_api.h	/^	char msg[ MBNET_MAX_SMS_LEN];$/;"	m
+msg	src/debug.h	/^	}msg;$/;"	m	struct:msg_buf
+msg	src/mbnet.h	/^typedef struct msg{$/;"	s
+msg_buf	src/debug.h	/^struct msg_buf {$/;"	s
+msg_t	src/mbnet.h	/^}msg_t;$/;"	t
+msgid_c	src/debug.c	/^	int msgid_c; \/* client send, server recive *\/$/;"	m	file:
+msgid_s	src/debug.c	/^	int msgid_s; \/* server send, client recive *\/$/;"	m	file:
+mtype	src/debug.h	/^	long mtype; \/\/client pid$/;"	m	struct:msg_buf
+mutex	src/debug.c	/^	pthread_mutex_t mutex;$/;"	m	file:
+mutex	src/mbnet.c	/^	pthread_mutex_t mutex;	$/;"	m	file:
+name	src/adv_route.c	/^	char		name[16];$/;"	m	struct:idxmap	file:
+ndis_get_dns	src/ndis.c	/^int ndis_get_dns(const char *iface, unsigned int *dns1, unsigned int *dns2)$/;"	f
+ndis_start	src/ndis.c	/^int ndis_start( cardinst_t * inst )$/;"	f
+ndis_stop	src/ndis.c	/^int ndis_stop( cardinst_t *inst )$/;"	f
+netmask	include/mbnet_api.h	/^	unsigned int netmask;$/;"	m
+netmode	src/mbnet.h	/^	int netmode;$/;"	m	struct:msg
+netmode	src/mbnet.h	/^	void (*netmode)( const thread_t *thread, const card_t *dev);$/;"	m	struct:driver
+netscanmode	src/mbnet.h	/^	void (*netscanmode)( const thread_t *thread, const card_t *dev, const dial_t *cfg);$/;"	m	struct:driver
+next	src/adv_route.c	/^	struct idxmap * next;$/;"	m	struct:idxmap	file:
+next	src/demo.c	/^	struct list_head *next,*prev;$/;"	m	struct:list_head	file:
+next	src/list.h	/^	struct list_head *next,*prev;$/;"	m	struct:list_head
+node	src/demo.c	/^	struct list_head node;$/;"	m	file:
+node	src/mbnet.h	/^	struct list_head node;$/;"	m
+node	src/mbnet.h	/^	struct list_head node;$/;"	m	struct:driver
+node	src/mbnet.h	/^	struct list_head node;$/;"	m	struct:instance
+nodecom_nl660_driver	src/ndis_nodecom_nl660.c	/^static driver_t nodecom_nl660_driver;$/;"	v	file:
+nodecom_nl660_driver_init	src/ndis_nodecom_nl660.c	/^driver_t * nodecom_nl660_driver_init( void )$/;"	f
+nodecom_nl660_fix	src/ndis_nodecom_nl660.c	/^static void nodecom_nl660_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+nodecom_nl660_get_one_msg	src/ndis_nodecom_nl660.c	/^static int nodecom_nl660_get_one_msg( const thread_t *thread, char *msg , unsigned int len)$/;"	f	file:
+nodecom_nl660_imsi	src/ndis_nodecom_nl660.c	/^static void nodecom_nl660_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+nodecom_nl660_init	src/ndis_nodecom_nl660.c	/^static void nodecom_nl660_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+nodecom_nl660_netmode	src/ndis_nodecom_nl660.c	/^static void nodecom_nl660_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+nodecom_nl660_netscanmode	src/ndis_nodecom_nl660.c	/^static void nodecom_nl660_netscanmode( const thread_t *thread, const card_t *dev, const dial_t *cfg)$/;"	f	file:
+nodecom_nl660_process	src/ndis_nodecom_nl660.c	/^static int nodecom_nl660_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+nodecom_nl660_reset	src/ndis_nodecom_nl660.c	/^static void nodecom_nl660_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+nodecom_nl660_send_cmd	src/ndis_nodecom_nl660.c	/^static void nodecom_nl660_send_cmd( const thread_t *thread, char *cmd)$/;"	f	file:
+nodecom_nl660_signal	src/ndis_nodecom_nl660.c	/^static void nodecom_nl660_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+nodecom_nl660_sim	src/ndis_nodecom_nl660.c	/^static void nodecom_nl660_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+nodecom_nl660_stop	src/ndis_nodecom_nl660.c	/^static void nodecom_nl660_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+old_flag	src/mbnet.h	/^	unsigned int old_flag;$/;"	m	struct:thread
+onLine	src/mbnet.h	/^	long onLine;$/;"	m	struct:thread
+parse_nexthops	src/adv_route.c	/^static int parse_nexthops(struct nlmsghdr *n, struct rtmsg *r, int argc, char **argv)$/;"	f	file:
+parse_one_nh	src/adv_route.c	/^static int parse_one_nh(struct rtattr *rta, struct rtnexthop *rtnh, int *argcp, char ***argvp)$/;"	f	file:
+parse_rtattr	src/adv_route.c	/^static int parse_rtattr(struct rtattr *tb[], int max, struct rtattr *rta, int len)$/;"	f	file:
+peer	src/adv_route.c	/^	struct sockaddr_nl	peer;$/;"	m	struct:rtnl_handle	file:
+peer_ipaddr	include/mbnet_api.h	/^	unsigned int peer_ipaddr;$/;"	m
+phone	include/mbnet_api.h	/^	char phone[MBNET_MAX_PHONE_NUM];$/;"	m
+pppd_chat_script	src/pppd.h	/^	char *pppd_chat_script;$/;"	m
+pppd_connect_script	src/pppd.h	/^	char *pppd_connect_script;$/;"	m
+pppd_disconnect_script	src/pppd.h	/^	char *pppd_disconnect_script;$/;"	m
+pppd_get_dns	src/pppd.c	/^int pppd_get_dns(const char* iface, unsigned int *dns1, unsigned int *dns2)$/;"	f
+pppd_script_t	src/pppd.h	/^}pppd_script_t;$/;"	t
+pppd_start	src/pppd.c	/^int pppd_start( cardinst_t *inst )$/;"	f
+pppd_stop	src/pppd.c	/^int pppd_stop( cardinst_t *inst)$/;"	f
+prev	src/demo.c	/^	struct list_head *next,*prev;$/;"	m	struct:list_head	file:
+prev	src/list.h	/^	struct list_head *next,*prev;$/;"	m	struct:list_head
+process	src/mbnet.h	/^	int(*process)( const thread_t *thread, const card_t *dev, msg_t *msg);$/;"	m	struct:driver
+put_device	src/mbnet.c	/^int  put_device( cardinst_t *inst)$/;"	f
+qmanage_get_dns	src/qmanage.c	/^int qmanage_get_dns(const char *iface, unsigned int *dns1, unsigned int *dns2)$/;"	f
+qmanage_start	src/qmanage.c	/^int qmanage_start( cardinst_t *inst )$/;"	f
+qmanage_stop	src/qmanage.c	/^int qmanage_stop( cardinst_t *inst)$/;"	f
+quectel_ec20_driver	src/ndis_quectel_ec20.c	/^static driver_t quectel_ec20_driver;$/;"	v	file:
+quectel_ec20_driver_init	src/ndis_quectel_ec20.c	/^driver_t * quectel_ec20_driver_init( void )$/;"	f
+quectel_ec20_fix	src/ndis_quectel_ec20.c	/^static void quectel_ec20_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+quectel_ec20_get_one_msg	src/ndis_quectel_ec20.c	/^static int quectel_ec20_get_one_msg( const thread_t *thread, char *msg , unsigned int len)$/;"	f	file:
+quectel_ec20_imsi	src/ndis_quectel_ec20.c	/^static void quectel_ec20_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+quectel_ec20_init	src/ndis_quectel_ec20.c	/^static void quectel_ec20_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+quectel_ec20_netmode	src/ndis_quectel_ec20.c	/^static void quectel_ec20_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+quectel_ec20_netscanmode	src/ndis_quectel_ec20.c	/^static void quectel_ec20_netscanmode( const thread_t *thread, const card_t *dev, const dial_t *cfg)$/;"	f	file:
+quectel_ec20_process	src/ndis_quectel_ec20.c	/^static int quectel_ec20_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+quectel_ec20_reset	src/ndis_quectel_ec20.c	/^static void quectel_ec20_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+quectel_ec20_send_cmd	src/ndis_quectel_ec20.c	/^static void quectel_ec20_send_cmd( const thread_t *thread, char *cmd)$/;"	f	file:
+quectel_ec20_signal	src/ndis_quectel_ec20.c	/^static void quectel_ec20_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+quectel_ec20_sim	src/ndis_quectel_ec20.c	/^static void quectel_ec20_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+quectel_ec20_stop	src/ndis_quectel_ec20.c	/^static void quectel_ec20_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+quectel_ec20v2_driver	src/ndis_quectel_ec20v2.c	/^static driver_t quectel_ec20v2_driver;$/;"	v	file:
+quectel_ec20v2_driver_init	src/ndis_quectel_ec20v2.c	/^driver_t * quectel_ec20v2_driver_init( void )$/;"	f
+quectel_ec20v2_fix	src/ndis_quectel_ec20v2.c	/^static void quectel_ec20v2_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+quectel_ec20v2_get_one_msg	src/ndis_quectel_ec20v2.c	/^static int quectel_ec20v2_get_one_msg( const thread_t *thread , char *msg , unsigned int len)$/;"	f	file:
+quectel_ec20v2_imsi	src/ndis_quectel_ec20v2.c	/^static void quectel_ec20v2_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+quectel_ec20v2_init	src/ndis_quectel_ec20v2.c	/^static void quectel_ec20v2_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+quectel_ec20v2_netmode	src/ndis_quectel_ec20v2.c	/^static void quectel_ec20v2_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+quectel_ec20v2_netscanmode	src/ndis_quectel_ec20v2.c	/^static void quectel_ec20v2_netscanmode( const thread_t *thread, const card_t *dev, const dial_t *cfg)$/;"	f	file:
+quectel_ec20v2_process	src/ndis_quectel_ec20v2.c	/^static int quectel_ec20v2_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+quectel_ec20v2_reset	src/ndis_quectel_ec20v2.c	/^static void quectel_ec20v2_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+quectel_ec20v2_send_cmd	src/ndis_quectel_ec20v2.c	/^static void quectel_ec20v2_send_cmd( const thread_t *thread , char *cmd)$/;"	f	file:
+quectel_ec20v2_signal	src/ndis_quectel_ec20v2.c	/^static void quectel_ec20v2_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+quectel_ec20v2_sim	src/ndis_quectel_ec20v2.c	/^static void quectel_ec20v2_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+quectel_ec20v2_stop	src/ndis_quectel_ec20v2.c	/^static void quectel_ec20v2_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+quectel_uc20_driver	src/pppd_quectel_uc20.c	/^static driver_t quectel_uc20_driver;$/;"	v	file:
+quectel_uc20_driver_init	src/pppd_quectel_uc20.c	/^driver_t * quectel_uc20_driver_init( void )$/;"	f
+quectel_uc20_fix	src/pppd_quectel_uc20.c	/^static void quectel_uc20_fix (const thread_t *thread , const card_t *dev , const dial_t *cfg)$/;"	f	file:
+quectel_uc20_get_one_msg	src/pppd_quectel_uc20.c	/^static int quectel_uc20_get_one_msg( const thread_t *thread , char *msg, unsigned int len)$/;"	f	file:
+quectel_uc20_imsi	src/pppd_quectel_uc20.c	/^static void quectel_uc20_imsi( const thread_t *thread, const card_t *dev)$/;"	f	file:
+quectel_uc20_init	src/pppd_quectel_uc20.c	/^static void quectel_uc20_init( const thread_t *thread , const card_t *dev)$/;"	f	file:
+quectel_uc20_netmode	src/pppd_quectel_uc20.c	/^static void quectel_uc20_netmode( const thread_t *thread, const card_t *dev)$/;"	f	file:
+quectel_uc20_process	src/pppd_quectel_uc20.c	/^static int quectel_uc20_process(   const thread_t *thread, const card_t *dev, msg_t *msg)$/;"	f	file:
+quectel_uc20_reset	src/pppd_quectel_uc20.c	/^static void quectel_uc20_reset( const thread_t *thread, const card_t *dev)$/;"	f	file:
+quectel_uc20_script	src/pppd_quectel_uc20.c	/^static pppd_script_t quectel_uc20_script =$/;"	v	file:
+quectel_uc20_send_cmd	src/pppd_quectel_uc20.c	/^static void quectel_uc20_send_cmd( const thread_t *thread , char *cmd)$/;"	f	file:
+quectel_uc20_signal	src/pppd_quectel_uc20.c	/^static void quectel_uc20_signal ( const thread_t *thread , const card_t *dev )$/;"	f	file:
+quectel_uc20_sim	src/pppd_quectel_uc20.c	/^static void quectel_uc20_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+quectel_uc20_stop	src/pppd_quectel_uc20.c	/^static void quectel_uc20_stop( const thread_t *thread, const card_t *dev)$/;"	f	file:
+register_driver	src/driver.c	/^static int register_driver( driver_t *driver)$/;"	f	file:
+replace_tok	src/pppd.c	/^static int replace_tok(char *str, unsigned int size, const char *old_tok, const char *new_tok)$/;"	f	file:
+req	src/mbnet.h	/^	struct list_head req;$/;"	m	struct:thread
+request	src/mbnet.h	/^	unsigned int request;$/;"	m
+request_t	src/mbnet.h	/^}request_t;$/;"	t
+reset	src/mbnet.h	/^	void (*reset)( const thread_t *thread, const card_t *dev );$/;"	m	struct:driver
+rta_addattr32	src/adv_route.c	/^static int rta_addattr32(struct rtattr *rta, int maxlen, int type, __u32 data)$/;"	f	file:
+rtnl_close	src/adv_route.c	/^static void rtnl_close(struct rtnl_handle *rth)$/;"	f	file:
+rtnl_dump_filter	src/adv_route.c	/^static int rtnl_dump_filter(struct rtnl_handle *rth,$/;"	f	file:
+rtnl_filter_t	src/adv_route.c	/^typedef int (*rtnl_filter_t)(const struct sockaddr_nl *, $/;"	t	file:
+rtnl_handle	src/adv_route.c	/^struct rtnl_handle$/;"	s	file:
+rtnl_open	src/adv_route.c	/^static int rtnl_open(struct rtnl_handle *rth, unsigned subscriptions)$/;"	f	file:
+rtnl_open_byproto	src/adv_route.c	/^static int rtnl_open_byproto(struct rtnl_handle *rth, unsigned subscriptions, int protocol)$/;"	f	file:
+rtnl_rtntype_a2n	src/adv_route.c	/^static int rtnl_rtntype_a2n(int *id, char *arg)$/;"	f	file:
+rtnl_rttable_a2n	src/adv_route.c	/^static int rtnl_rttable_a2n(__u32 *id, char *arg)$/;"	f	file:
+rtnl_rttable_init	src/adv_route.c	/^static int rtnl_rttable_init;$/;"	v	file:
+rtnl_rttable_initialize	src/adv_route.c	/^static void rtnl_rttable_initialize(void)$/;"	f	file:
+rtnl_rttable_tab	src/adv_route.c	/^static char * rtnl_rttable_tab[256] = {$/;"	v	file:
+rtnl_tab_initialize	src/adv_route.c	/^static void rtnl_tab_initialize(char *file, char **tab, int size)$/;"	f	file:
+rtnl_talk	src/adv_route.c	/^static int rtnl_talk(struct rtnl_handle *rtnl, struct nlmsghdr *n, pid_t peer,$/;"	f	file:
+rtnl_wilddump_request	src/adv_route.c	/^static int rtnl_wilddump_request(struct rtnl_handle *rth, int family, int type)$/;"	f	file:
+sAPN	include/mbnet_api.h	/^	char sAPN[MBNET_MAX_APN_LEN + 1];$/;"	m
+sCallNum	include/mbnet_api.h	/^	char sCallNum[MBNET_MAX_CALL_NUM + 1];$/;"	m
+sPassWord	include/mbnet_api.h	/^	char sPassWord[MBNET_MAX_PASSWORD_LEN + 1];$/;"	m
+sProduct	include/mbnet_api.h	/^	char sProduct[MBNET_MAX_PRODUCT_NAME + 1];$/;"	m
+sProduct	src/mbnet.h	/^	char sProduct[MBNET_MAX_PRODUCT_NAME + 1];$/;"	m	struct:driver
+sUserName	include/mbnet_api.h	/^	char sUserName[MBNET_MAX_USENAME_LEN + 1];$/;"	m
+sVendor	include/mbnet_api.h	/^	char sVendor[MBNET_MAX_VENDOR_NAME + 1];$/;"	m
+sVendor	src/mbnet.h	/^	char sVendor[MBNET_MAX_VENDOR_NAME + 1];$/;"	m	struct:driver
+scan_thread	src/mbnet.c	/^static void *scan_thread( void *arg )$/;"	f	file:
+script	src/pppd.h	/^	script_t script[MAX_NETMODE];$/;"	m
+script_t	src/pppd.h	/^}script_t;$/;"	t
+send_cmd	src/mbnet.h	/^	void (*send_cmd)(const thread_t *thread, char *cmd);$/;"	m	struct:driver
+send_msg	debug/mbnet_debug.c	/^int send_msg(char *str)$/;"	f
+seq	src/adv_route.c	/^	__u32			seq;$/;"	m	struct:rtnl_handle	file:
+server_tid	src/mbnet.h	/^	pthread_t server_tid;$/;"	m	struct:thread
+service_thread	src/mbnet.c	/^static void *service_thread( void *arg )$/;"	f	file:
+show_card_info	src/demo.c	/^static int show_card_info( card_t *card)$/;"	f	file:
+signal	src/mbnet.h	/^	int signal;      $/;"	m	struct:msg
+signal	src/mbnet.h	/^	void (*signal)( const thread_t *thread, const card_t *dev );$/;"	m	struct:driver
+sim	src/mbnet.h	/^	void (*sim)(  const thread_t *thread, const card_t *dev);$/;"	m	struct:driver
+simcard	src/mbnet.h	/^	int simcard;$/;"	m	struct:msg
+simcom_7600e_driver	src/ndis_simcom_7600e.c	/^static driver_t simcom_7600e_driver;$/;"	v	file:
+simcom_7600e_driver_init	src/ndis_simcom_7600e.c	/^driver_t * simcom_7600e_driver_init( void )$/;"	f
+simcom_7600e_fix	src/ndis_simcom_7600e.c	/^static void simcom_7600e_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+simcom_7600e_get_one_msg	src/ndis_simcom_7600e.c	/^static int simcom_7600e_get_one_msg( const thread_t *thread, char *msg , unsigned int len)$/;"	f	file:
+simcom_7600e_imsi	src/ndis_simcom_7600e.c	/^static void simcom_7600e_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+simcom_7600e_init	src/ndis_simcom_7600e.c	/^static void simcom_7600e_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+simcom_7600e_netmode	src/ndis_simcom_7600e.c	/^static void simcom_7600e_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+simcom_7600e_netscanmode	src/ndis_simcom_7600e.c	/^static void simcom_7600e_netscanmode( const thread_t *thread, const card_t *dev, const dial_t *cfg)$/;"	f	file:
+simcom_7600e_process	src/ndis_simcom_7600e.c	/^static int simcom_7600e_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+simcom_7600e_reset	src/ndis_simcom_7600e.c	/^static void simcom_7600e_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+simcom_7600e_send_cmd	src/ndis_simcom_7600e.c	/^static void simcom_7600e_send_cmd( const thread_t *thread, char *cmd)$/;"	f	file:
+simcom_7600e_signal	src/ndis_simcom_7600e.c	/^static void simcom_7600e_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+simcom_7600e_sim	src/ndis_simcom_7600e.c	/^static void simcom_7600e_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+simcom_7600e_stop	src/ndis_simcom_7600e.c	/^static void simcom_7600e_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+sms	src/mbnet.h	/^	sms_t sms;$/;"	m	struct:msg
+sms_t	include/mbnet_api.h	/^}sms_t;$/;"	t
+start_dial	src/mbnet.c	/^static int start_dial( cardinst_t *inst)$/;"	f	file:
+start_time	src/demo.c	/^	struct timeval start_time;$/;"	m	file:
+status	src/demo.c	/^	int status;$/;"	m	file:
+stop	src/mbnet.h	/^	void(*stop)( const thread_t *thread , const card_t *dev);$/;"	m	struct:driver
+stop_dial	src/mbnet.c	/^static void stop_dial( cardinst_t *inst)$/;"	f	file:
+strlowr	debug/mbnet_debug.c	/^static char *strlowr(char *str){$/;"	f	file:
+strlowr	src/debug.c	/^static char *strlowr(char *str){$/;"	f	file:
+thread	src/mbnet.h	/^typedef struct thread {$/;"	s
+thread_info	src/mbnet.h	/^	thread_t thread_info;$/;"	m	struct:instance
+thread_mutex	src/mbnet.h	/^	pthread_mutex_t thread_mutex;$/;"	m	struct:thread
+thread_t	src/mbnet.h	/^}thread_t;$/;"	t
+tid	src/debug.c	/^	int tid;$/;"	m	file:
+ttyUSBAt	include/mbnet_api.h	/^	int  ttyUSBAt;$/;"	m
+ttyUSBBase	include/mbnet_api.h	/^	int  ttyUSBBase;$/;"	m
+ttyUSBData	include/mbnet_api.h	/^	int  ttyUSBData;$/;"	m
+type	src/adv_route.c	/^	int		type;$/;"	m	struct:idxmap	file:
+version	src/mbnet.c	/^static char version[128];$/;"	v	file:
+youfang_n720_driver	src/ndis_youfang_n720.c	/^static driver_t youfang_n720_driver;$/;"	v	file:
+youfang_n720_driver_init	src/ndis_youfang_n720.c	/^driver_t * youfang_n720_driver_init( void )$/;"	f
+youfang_n720_fix	src/ndis_youfang_n720.c	/^static void youfang_n720_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+youfang_n720_get_one_msg	src/ndis_youfang_n720.c	/^static int youfang_n720_get_one_msg( const thread_t *thread, char *msg , unsigned int len)$/;"	f	file:
+youfang_n720_imsi	src/ndis_youfang_n720.c	/^static void youfang_n720_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+youfang_n720_init	src/ndis_youfang_n720.c	/^static void youfang_n720_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+youfang_n720_netmode	src/ndis_youfang_n720.c	/^static void youfang_n720_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+youfang_n720_process	src/ndis_youfang_n720.c	/^static int youfang_n720_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+youfang_n720_reset	src/ndis_youfang_n720.c	/^static void youfang_n720_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+youfang_n720_send_cmd	src/ndis_youfang_n720.c	/^static void youfang_n720_send_cmd( const thread_t *thread, char *cmd)$/;"	f	file:
+youfang_n720_signal	src/ndis_youfang_n720.c	/^static void youfang_n720_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+youfang_n720_sim	src/ndis_youfang_n720.c	/^static void youfang_n720_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+youfang_n720_stop	src/ndis_youfang_n720.c	/^static void youfang_n720_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
+zte_me3760_driver	src/ndis_zte_me3760.c	/^static driver_t zte_me3760_driver;$/;"	v	file:
+zte_me3760_driver_init	src/ndis_zte_me3760.c	/^driver_t * zte_me3760_driver_init( void )$/;"	f
+zte_me3760_fix	src/ndis_zte_me3760.c	/^static void zte_me3760_fix (const thread_t *thread, const card_t *dev , const dial_t *cfg)$/;"	f	file:
+zte_me3760_get_one_msg	src/ndis_zte_me3760.c	/^static int zte_me3760_get_one_msg( const thread_t *thread , char *msg , unsigned int len)$/;"	f	file:
+zte_me3760_imsi	src/ndis_zte_me3760.c	/^static void zte_me3760_imsi( const thread_t *thread , const card_t *dev)$/;"	f	file:
+zte_me3760_init	src/ndis_zte_me3760.c	/^static void zte_me3760_init( const thread_t * thread, const card_t *dev)$/;"	f	file:
+zte_me3760_netmode	src/ndis_zte_me3760.c	/^static void zte_me3760_netmode( const thread_t *thread, const card_t *dev )$/;"	f	file:
+zte_me3760_process	src/ndis_zte_me3760.c	/^static int zte_me3760_process( const thread_t *thread, const card_t *dev,  msg_t *msg)$/;"	f	file:
+zte_me3760_reset	src/ndis_zte_me3760.c	/^static void zte_me3760_reset( const thread_t *thread , const card_t *dev)$/;"	f	file:
+zte_me3760_send_cmd	src/ndis_zte_me3760.c	/^static void zte_me3760_send_cmd( const thread_t *thread , char *cmd)$/;"	f	file:
+zte_me3760_signal	src/ndis_zte_me3760.c	/^static void zte_me3760_signal ( const thread_t *thread, const card_t *dev )$/;"	f	file:
+zte_me3760_sim	src/ndis_zte_me3760.c	/^static void zte_me3760_sim( const thread_t *thread , const card_t *dev)$/;"	f	file:
+zte_me3760_stop	src/ndis_zte_me3760.c	/^static void zte_me3760_stop( const thread_t *thread , const card_t *dev)$/;"	f	file:
